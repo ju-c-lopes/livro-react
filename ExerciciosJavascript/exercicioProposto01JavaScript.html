@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício JavaScript</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/javascript">
+        // Criando Elemento H1
+        var h1 = document.createElement("h1");
+        h1.setAttribute("class", "logo");
+
+        // Adicionando Texto ao h1        
+        var text = document.createTextNode("Editora MaujorTex");
+        h1.appendChild(text);
+
+        // Adicionando a tag h1 na Div Root
+        var root = document.getElementById("root");
+        root.appendChild(h1);
+
+        // Criando elemento Nav e a lista de links e textos
+        var naveg = document.createElement("nav");
+        naveg.setAttribute("class", "menu");
+
+        var links = [
+            {"index.html": "Home"},
+            {"livros.html": "Livros"},
+            {"autores.html": "Autores"}
+        ];
+
+        // Criando elemento ul
+        var unordList = document.createElement("ul");
+
+        // Loop For para criação de LIs para o elemento ul
+        for (var i = 0; i < 3; i++) {
+
+            // A cada iteração cria um li e os elementos dentro dele
+            let li = document.createElement("li");
+
+            // criando anchor tag com atributo href e texto
+            let anchor = document.createElement("a");
+            let k = Object.keys(links[i]);
+            anchor.setAttribute("href", `${k}`);
+            anchor.appendChild(document.createTextNode(links[i][`${k}`]));
+            li.appendChild(anchor);
+
+            // adicionando li ao ul
+            unordList.appendChild(li);
+        }
+
+        // Adicionando ul ao nav
+        naveg.appendChild(unordList);
+
+        // Adicionando nav a div root
+        root.appendChild(naveg);
+    </script>
+</body>
+</html>
