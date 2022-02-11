@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício React</title>
+
+    <!-- Exportando biblioteca React -->
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+
+        // Lista links e texto dos links
+        const links = [
+            {"index.html": "Home"},
+            {"livros.html": "Livros"},
+            {"autores.html": "Autores"}
+        ];
+
+        // Criando elemento H1
+        const editora = React.createElement("h1", {className: "logo"}, "Editora MaujorTec");
+
+        // lista no for que conterá os lis do elemento ul
+        var lis = [];
+        for (let i = 0; i < 3; i++) {
+
+            // Texto da tag a
+            let txt = links[i][`${Object.keys(links[i])}`];
+
+            // Criando elemento anchor (tag a) e adicionando texto a ele
+            let anchor = React.createElement("a", {href: `${Object.keys(links[i])}`}, txt);
+
+            // Criando elemento li e adicionando a "tag a" nele
+            let li = React.createElement("li", {}, anchor);
+
+            // Salvando na lista
+            lis = [...lis, li];
+        }
+
+        // Criando elemento ul e extraindo os lis da lista para dentro dele
+        const undordList = React.createElement("ul", {}, ...lis);
+
+        // Criando elemento Nav e adicionando ul dentro dele
+        const nav = React.createElement("nav", {className: "menu"}, undordList);
+
+        // salvando tags a serem renderizadas
+        const tags = [editora, undordList];
+
+        // Criando elemento que conterá tudo que será renderizado
+        const principal = React.createElement("main", {}, ...tags);
+
+        // Renderizando na página, adicionando a div root
+        ReactDOM.render(principal, document.getElementById("root"));
+
+    </script>
+</body>
+</html>
