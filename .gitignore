@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/livro-react-maujor/node_modules
+/livro-react-maujor/.pnp
+/livro-react-maujor/.pnp.js
+
+# testing
+/livro-react-maujor/coverage
+
+# production
+/livro-react-maujor/build
+
+# misc
+/livro-react.maujor/.DS_Store
+/livro-react-maujor/.env.local
+/livro-react-maujor/.env.development.local
+/livro-react-maujor/.env.test.local
+/livro-react-maujor/.env.production.local
+
+/livro-react-maujor/npm-debug.log*
+/livro-react-maujor/yarn-debug.log*
+/livro-react-maujor/yarn-error.log*
