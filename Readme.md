@@ -5,3 +5,9 @@
 \* <u><b>OBS:</b></u> Iniciar app react não estando no diretório raiz:<br>
 --> npm start --prefix path/to-your/app<br><br>
 --> ex: npm start --prefix ./Documentos/minha-aplicacao-de-exemplo/
+<hr>
+
+#### Projetos:
+
+###### Tabela livros
+###### Editora majourtec

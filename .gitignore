@@ -1,23 +1,36 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/livro-react-maujor/node_modules
-/livro-react-maujor/.pnp
-/livro-react-maujor/.pnp.js
+/livro-react-maujor/tabela-livros/node_modules
+/livro-react-maujor/editora-maujortec/node_modules
+/livro-react-maujor/tabela-livros/.pnp
+/livro-react-maujor/editora-maujortec/.pnp
+/livro-react-maujor/tabela-livros/.pnp.js
+/livro-react-maujor/editora-maujortec/.pnp.js
 
 # testing
-/livro-react-maujor/coverage
+/livro-react-maujor/tabela-livros/coverage
+/livro-react-maujor/editora-maujortec/coverage
 
 # production
-/livro-react-maujor/build
+/livro-react-maujor/tabela-livros/build
+/livro-react-maujor/editora-maujortec/build
 
 # misc
-/livro-react.maujor/.DS_Store
-/livro-react-maujor/.env.local
-/livro-react-maujor/.env.development.local
-/livro-react-maujor/.env.test.local
-/livro-react-maujor/.env.production.local
+/livro-react.maujor/tabela-livros/.DS_Store
+/livro-react.maujor/editora-maujortec/.DS_Store
+/livro-react-maujor/tabela-livros/.env.local
+/livro-react-maujor/editora-maujortec/.env.local
+/livro-react-maujor/tabela-livros/.env.development.local
+/livro-react-maujor/editora-maujortec/.env.development.local
+/livro-react-maujor/tabela-livros/.env.test.local
+/livro-react-maujor/editora-maujortec/.env.test.local
+/livro-react-maujor/tabela-livros/.env.production.local
+/livro-react-maujor/editora-maujortec/.env.production.local
 
-/livro-react-maujor/npm-debug.log*
-/livro-react-maujor/yarn-debug.log*
-/livro-react-maujor/yarn-error.log*
+/livro-react-maujor/tabela-livros/npm-debug.log*
+/livro-react-maujor/editora-maujortec/npm-debug.log*
+/livro-react-maujor/tabela-livros/yarn-debug.log*
+/livro-react-maujor/editora-maujortec/yarn-debug.log*
+/livro-react-maujor/tabela-livros/yarn-error.log*
+/livro-react-maujor/editora-maujortec/yarn-error.log*
