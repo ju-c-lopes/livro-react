@@ -28,28 +28,29 @@ class App extends Component {
 
   handleOrdenarCrescenteTitulo = (titulo) => {
     const livros = this.state.livros.sort((a, b) => 
-      a.titulo < b.titulo ? 0 : 1 // Lê-se "A" é menor que "B" ? se true, mantém, senão faz a troca de "B" no lugar de "A"
+      a.titulo < b.titulo ? -1 : 0 // Lê-se "A" é menor que "B" ? se true, mantém, senão faz a troca de "B" no lugar de "A"
     );
     this.setState({ livros });
   };
 
   handleOrdenarDecrescenteTitulo = (titulo) => {
     const livros = this.state.livros.sort((a, b) => 
-      a.titulo > b.titulo ? 0 : 1 // Lê-se "A" é maior que "B" ? se true, mantém, senão faz a troca de "B" no lugar de "A"
+      a.titulo > b.titulo ? -1 : 0 // Lê-se "A" é maior que "B" ? se true, mantém, senão faz a troca de "B" no lugar de "A"
+      
     );
     this.setState({ livros });
   };
 
   handleOrdenarCrescenteAutor = (autor) => {
     const livros = this.state.livros.sort((a, b) => 
-      a.autor < b.autor ? 0 : 1 // Lê-se "A" é menor que "B" ? se true, mantém, senão faz a troca de "B" no lugar de "A"
+      a.autor < b.autor ? -1: 0 // Lê-se "A" é menor que "B" ? se true, mantém, senão faz a troca de "B" no lugar de "A"
     );
     this.setState({ livros });
   };
 
   handleOrdenarDecrescenteAutor = (autor) => {
     const livros = this.state.livros.sort((a, b) => 
-      a.autor > b.autor ? 0 : 1 // Lê-se "A" é maior que "B" ? se true, mantém, senão faz a troca de "B" no lugar de "A"
+      a.autor > b.autor ? -1 : 0 // Lê-se "A" é maior que "B" ? se true, mantém, senão faz a troca de "B" no lugar de "A"
     );
     this.setState({ livros });
   };

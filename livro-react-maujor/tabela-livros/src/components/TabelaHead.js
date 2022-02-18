@@ -9,7 +9,7 @@ const TabelaHead = (props) => (
         <tr>
             <th>ISBN</th>
             <th>Título
-                <BotaoOrdena
+            <BotaoOrdena
                     btCrescente={ props.ordenarCrescenteTit }
                     btDecrescente={ props.ordenarDecrescenteTit }
                 />

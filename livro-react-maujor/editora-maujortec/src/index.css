@@ -8,6 +8,7 @@ html {
   box-sizing: border-box;
 }
 body {
+  background: #909090;
   margin: 0;
   font: 1rem sans-serif;
 }
