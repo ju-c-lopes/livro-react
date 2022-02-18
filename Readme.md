@@ -10,4 +10,4 @@
 #### Projetos:
 
 ###### Tabela livros
-###### Editora majourtec
+###### Editora maujortec
