@@ -14,7 +14,7 @@ import NotFound from "./components/NotFound";
 import Rodape from "./components/Rodape";
 import "./index.css";
 import Livro from "./components/Livro";
-import axios from "axios";
+// import axios from "axios";
 
 /*
     A partir da versão 6 alterou a implementação de rotas
@@ -29,19 +29,26 @@ class App extends Component {
     livros: []
   };
 
-  async componentDidMount() {
-    try {
-      const { data: livros } = await axios.get("/api/todosOsLivros.json");
-      this.setState({ livros });
-    } catch (error) {
-      console.log(error);
-      document
-        .querySelectorAll(".principal")[0]
-        .insertAdjacentHTML(
-          "beforeend",
-          "<p class='erro'>Mensagem de erro</p>"
-        );
-    }
+  /*
+    =================================================================
+
+    exercicio feito com api nativa fetch ao invés da biblioteca axios
+    
+    =================================================================
+  */
+
+  componentDidMount() {
+    fetch("/api/todosOsLivros.json")
+      .then(response => response.json())
+      .then(livros => this.setState({ livros }))
+      .catch(function(error) {
+        document
+          .querySelectorAll("main")[0]
+          .insertAdjacentHTML("beforeend", "<p class='alerta'>Mensagem de erro</p>")
+      })
+      .finally(function() {
+        console.log("sempre retorna");
+      })
   }
 
   render() {
