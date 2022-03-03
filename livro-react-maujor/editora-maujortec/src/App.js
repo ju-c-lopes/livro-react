@@ -44,6 +44,8 @@ class App extends Component {
     }
   }
 
+  
+
   render() {
     return (
       <Router>
@@ -54,7 +56,8 @@ class App extends Component {
           <Route exact path="/programacao" element={<Programacao livros={this.state.livros} />} />
           <Route exact path="/design" element={<Design livros={this.state.livros} />} />
           <Route exact path="/catalogo" element={<Catalogo livros={this.state.livros} />} />
-          <Route path="/livro/:livroSlug" element={props => {
+          <Route exact path="/livro/:livroSlug" render={props => {
+            console.log(props)
             const livro = this.state.livros.find(
               livro => livro.slug === props.match.params.livroSlug);
                 if (livro) return <Livro livro={livro} />;
