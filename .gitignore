@@ -5,26 +5,34 @@
 /livro-react-maujor/editora-maujortec/node_modules
 /Conceitos/06-Classes/node_modules
 /livro-react-maujor/crud/node_modules
+/livro-react-maujor/firebase-login/node_modules
+
 /livro-react-maujor/tabela-livros/.pnp
 /livro-react-maujor/editora-maujortec/.pnp
 /Conceitos/06-Classes/.pnp
 /livro-react-maujor/crud/.pnp
+/livro-react-maujor/firebase-login/.pnp
+
 /livro-react-maujor/tabela-livros/.pnp.js
 /livro-react-maujor/editora-maujortec/.pnp.js
 /Conceitos/06-Classes/.pnp.js
 /livro-react-maujor/crud/.pnp.js
+/livro-react-maujor/firebase-login/.pnp.js
+
 
 # testing
 /livro-react-maujor/tabela-livros/coverage
 /livro-react-maujor/editora-maujortec/coverage
 /Conceitos/06-Classes/coverage
 /livro-react-maujor/crud/coverage
+/livro-react-maujor/firebase-login/coverage
 
 # production
 /livro-react-maujor/tabela-livros/build
 /livro-react-maujor/editora-maujortec/build
 /Conceitos/06-Classes/build
 /livro-react-maujor/crud/build
+/livro-react-maujor/firebase-login/build
 
 # ===================================================
 # misc
@@ -32,32 +40,48 @@
 /livro-react.maujor/editora-maujortec/.DS_Store
 /Conceitos/06-Classes/.DS_Store
 /livro-react-maujor/crud/.DS_Store
+/livro-react-maujor/firebase-login/.DS_Store
+
 /livro-react-maujor/tabela-livros/.env.local
 /livro-react-maujor/editora-maujortec/.env.local
 /Conceitos/06-Classes/.env.local
 /livro-react-maujor/crud/.env.local
+/livro-react-maujor/firebase-login/.env.local
+
 /livro-react-maujor/tabela-livros/.env.development.local
 /livro-react-maujor/editora-maujortec/.env.development.local
 /Conceitos/06-Classes/.env.development.local
 /livro-react-maujor/crud/.env.development.local
+/livro-react-maujor/firebase-login/.env.development.local
+
 /livro-react-maujor/tabela-livros/.env.test.local
 /livro-react-maujor/editora-maujortec/.env.test.local
 /Conceitos/06-Classes/.env.test.local
 /livro-react-maujor/crud/.env.test.local
+/livro-react-maujor/firebase-login/.env.test.local
+
 /livro-react-maujor/tabela-livros/.env.production.local
 /livro-react-maujor/editora-maujortec/.env.production.local
 /Conceitos/06-Classes/.env.production.local
 /livro-react-maujor/crud/.env.production.local
+/livro-react-maujor/firebase-login/.env.production.local
+
 
 /livro-react-maujor/tabela-livros/npm-debug.log*
 /livro-react-maujor/editora-maujortec/npm-debug.log*
 /Conceitos/06-Classes/npm-debug.log*
 /livro-react-maujor/crud/npm-debug.log*
+/livro-react-maujor/firebase-login/npm-debug.log*
+
 /livro-react-maujor/tabela-livros/yarn-debug.log*
 /livro-react-maujor/editora-maujortec/yarn-debug.log*
 /Conceitos/06-Classes/yarn-debug.log*
 /livro-react-maujor/crud/yarn-debug.log*
+/livro-react-maujor/firebase-login/yarn-debug.log*
+
 /livro-react-maujor/tabela-livros/yarn-error.log*
 /livro-react-maujor/editora-maujortec/yarn-error.log*
 /Conceitos/06-Classes/yarn-error.log*
 /livro-react-maujor/crud/yarn-error.log*
+/livro-react-maujor/firebase-login/yarn-error.log*
+

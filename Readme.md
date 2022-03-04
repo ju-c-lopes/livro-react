@@ -11,13 +11,20 @@ Projeto CRUD feito com react-router-dom v5.
 A versão atual do react-router-dom é a v6, com consideráveis mudanças.
 A propósito de aprendizado, continuamos utilizando a v5, porém, é ideal buscar entendimento para a migração para a v6, onde:
 
-* Switch (v5) <b style="color: red;">-></b> Routes (v6)
-* Redirect (v5) <b style="color: red;">-></b> Navigate (v6)
+* Switch (v5) <b><span style="color: red;">-></span></b> Routes (v6)
+* Redirect (v5) <b><span style="color: red;">-></span></b> Navigate (v6)
 * render={() => ...} (v5) <b style="color: red;">-></b> element={</>}
 * e mais... 
+
+<hr>
+
+Projeto CRUD com autenticação no Firebase.
+Seguindo as diretivas do livro, porém os métodos do Firebase estão um pouco diferentes.
+utilizado async await
 
 #### Projetos:
 
 ###### Tabela livros
 ###### Editora maujortec
 ###### CRUD
+###### CRUD with FirebaseAuthentication
