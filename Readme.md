@@ -27,6 +27,8 @@ utilizado async await
 Projeto Calculadora de Temperatura.
 Objetivo: apresentação de hooks
 
+<hr>
+
 #### Projetos:
 
 ###### Tabela livros

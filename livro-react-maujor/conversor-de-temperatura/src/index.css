@@ -91,7 +91,7 @@ option {
   text-align: center;
 }
 .limpa {
-  background: center url(./backspace.svg) no-repeat;
+  /* background: center url(./backspace.svg) no-repeat; */
   background-color: #fff;
 }
 #user-temp,
