@@ -22,9 +22,15 @@ Projeto CRUD com autenticação no Firebase.
 Seguindo as diretivas do livro, porém os métodos do Firebase estão um pouco diferentes.
 utilizado async await
 
+<hr>
+
+Projeto Calculadora de Temperatura.
+Objetivo: apresentação de hooks
+
 #### Projetos:
 
 ###### Tabela livros
 ###### Editora maujortec
 ###### CRUD
 ###### CRUD with FirebaseAuthentication
+###### Calculadora de Temperatura
