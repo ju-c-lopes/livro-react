@@ -9,6 +9,8 @@
 /livro-react-maujor/conversor-de-temperatura/node_modules
 /livro-react-maujor/passagem-dados-hook/node_modules
 /livro-react-maujor/use-effect/node_modules
+/livro-react-maujor/lista-livros-teste-inicial/node_modules
+/livro-react-maujor/lista-livros-teste/node_modules
 
 /livro-react-maujor/tabela-livros/.pnp
 /livro-react-maujor/editora-maujortec/.pnp
@@ -18,6 +20,8 @@
 /livro-react-maujor/conversor-de-temperatura/.pnp
 /livro-react-maujor/passagem-dados-hook/.pnp
 /livro-react-maujor/use-effect/.pnp
+/livro-react-maujor/lista-livros-teste-inicial/.pnp
+/livro-react-maujor/lista-livros-teste/.pnp
 
 /livro-react-maujor/tabela-livros/.pnp.js
 /livro-react-maujor/editora-maujortec/.pnp.js
@@ -27,6 +31,8 @@
 /livro-react-maujor/conversor-de-temperatura/.pnp.js
 /livro-react-maujor/passagem-dados-hook/.pnp.js
 /livro-react-maujor/use-effect/.pnp.js
+/livro-react-maujor/lista-livros-teste-inicial/.pnp.js
+/livro-react-maujor/lista-livros-teste/.pnp.js
 
 
 # testing
@@ -38,6 +44,8 @@
 /livro-react-maujor/conversor-de-temperatura/coverage
 /livro-react-maujor/passagem-dados-hook/coverage
 /livro-react-maujor/use-effect/coverage
+/livro-react-maujor/lista-livros-teste-inicial/coverage
+/livro-react-maujor/lista-livros-teste/coverage
 
 # production
 /livro-react-maujor/tabela-livros/build
@@ -48,6 +56,8 @@
 /livro-react-maujor/conversor-de-temperatura/build
 /livro-react-maujor/passagem-dados-hook/build
 /livro-react-maujor/use-effect/build
+/livro-react-maujor/lista-livros-teste-inicial/build
+/livro-react-maujor/lista-livros-teste/build
 
 # ===================================================
 # misc
@@ -59,6 +69,8 @@
 /livro-react-maujor/conversor-de-temperatura/.DS_Store
 /livro-react-maujor/passagem-dados-hook/.DS_Store
 /livro-react-maujor/use-effect/.DS_Store
+/livro-react-maujor/lista-livros-teste-inicial/.DS_Store
+/livro-react-maujor/lista-livros-teste/.DS_Store
 
 /livro-react-maujor/tabela-livros/.env.local
 /livro-react-maujor/editora-maujortec/.env.local
@@ -68,6 +80,8 @@
 /livro-react-maujor/conversor-de-temperatura/.env.local
 /livro-react-maujor/passagem-dados-hook/.env.local
 /livro-react-maujor/use-effect/.env.local
+/livro-react-maujor/lista-livros-teste-inicial/.env.local
+/livro-react-maujor/lista-livros-teste/.env.local
 
 /livro-react-maujor/tabela-livros/.env.development.local
 /livro-react-maujor/editora-maujortec/.env.development.local
@@ -77,6 +91,8 @@
 /livro-react-maujor/conversor-de-temperatura/.env.development.local
 /livro-react-maujor/passagem-dados-hook/.env.development.local
 /livro-react-maujor/use-effect/.env.development.local
+/livro-react-maujor/lista-livros-teste-inicial/.env.development.local
+/livro-react-maujor/lista-livros-teste/.env.development.local
 
 /livro-react-maujor/tabela-livros/.env.test.local
 /livro-react-maujor/editora-maujortec/.env.test.local
@@ -86,6 +102,8 @@
 /livro-react-maujor/conversor-de-temperatura/.env.test.local
 /livro-react-maujor/passagem-dados-hook/.env.test.local
 /livro-react-maujor/use-effect/.env.test.local
+/livro-react-maujor/lista-livros-teste-inicial/.env.test.local
+/livro-react-maujor/lista-livros-teste/.env.test.local
 
 /livro-react-maujor/tabela-livros/.env.production.local
 /livro-react-maujor/editora-maujortec/.env.production.local
@@ -95,6 +113,8 @@
 /livro-react-maujor/conversor-de-temperatura/.env.production.local
 /livro-react-maujor/passagem-dados-hook/.env.production.local
 /livro-react-maujor/use-effect/.env.production.local
+/livro-react-maujor/lista-livros-teste-inicial/.env.production.local
+/livro-react-maujor/lista-livros-teste/.env.production.local
 
 
 /livro-react-maujor/tabela-livros/npm-debug.log*
@@ -105,6 +125,8 @@
 /livro-react-maujor/conversor-de-temperatura/npm-debug.log*
 /livro-react-maujor/passagem-dados-hook/npm-debug.log*
 /livro-react-maujor/use-effect/npm-debug.log*
+/livro-react-maujor/lista-livros-teste-inicial/npm-debug.log*
+/livro-react-maujor/lista-livros-teste/npm-debug.log*
 
 /livro-react-maujor/tabela-livros/yarn-debug.log*
 /livro-react-maujor/editora-maujortec/yarn-debug.log*
@@ -114,6 +136,8 @@
 /livro-react-maujor/conversor-de-temperatura/yarn-debug.log*
 /livro-react-maujor/passagem-dados-hook/yarn-debug.log*
 /livro-react-maujor/use-effect/yarn-debug.log*
+/livro-react-maujor/lista-livros-teste-inicial/yarn-debug.log*
+/livro-react-maujor/lista-livros-teste/yarn-debug.log*
 
 /livro-react-maujor/tabela-livros/yarn-error.log*
 /livro-react-maujor/editora-maujortec/yarn-error.log*
@@ -123,4 +147,6 @@
 /livro-react-maujor/conversor-de-temperatura/yarn-error.log*
 /livro-react-maujor/passagem-dados-hook/yarn-error.log*
 /livro-react-maujor/use-effect/yarn-error.log*
+/livro-react-maujor/lista-livros-teste-inicial/yarn-error.log*
+/livro-react-maujor/lista-livros-teste/yarn-error.log*
 
